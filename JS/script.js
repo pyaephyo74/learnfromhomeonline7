@@ -1,5 +1,5 @@
 let logo = document.querySelector("#menu");
-let navlist = document.querySelector(".navbar ul");
+let navlist = document.querySelector(".lists");
 logo.addEventListener("click",function(){
     navlist.classList.toggle("nav-toggle");
     logo.classList.toggle("fa-times");
